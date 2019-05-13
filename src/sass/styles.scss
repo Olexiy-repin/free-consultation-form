@@ -92,6 +92,18 @@
 :-moz-placeholder           {font-family: AcromR; font-size: pxToRem(14px); color:#b6c4ca; letter-spacing: .6px;text-align: center;}/* Firefox 18- */
 :-ms-input-placeholder      {font-family: AcromR; font-size: pxToRem(14px); color:#b6c4ca; letter-spacing: .6px;text-align: center;}
 
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  background-color: transparent;
+}
+
 .free-consultation__form {
     background-color: #102136;
     padding: 2rem 0;
