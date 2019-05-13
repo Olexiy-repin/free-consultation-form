@@ -201,7 +201,7 @@ textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-	background-color: transparent;
+	background-color: transparent !important;
 }
 
 .free-consultation__form {
