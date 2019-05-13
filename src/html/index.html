@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Form</title>
+  <meta name="description" content="Приглашаем в команду GoIT менеджера по продажам">
+  <meta name="keywords" content="goit, вакансия, менеджер по продажам">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<section class="free-consultation">
+  <div class="free-consultation-container">
+    <div class="free-consultation__text-container">
+      <h2 class="free-consultation__title">[ не можете<br> определиться<br> что выбрать?_]</h2>
+      <p class="free-consultation__subtitle"><span>[ Узнайте за 1 встречу (в офисе в Киеве или онлайн по скайпу) </span><span>каким может быть твой путь в IT _]</span></p>
+      <p class="free-consultation__text">Как с нуля всего за 3-5 месяцев получить все необходимые знания и навыки для гарантированного старта карьеры в IT.</p>
+      <p class="free-consultation__list-title">Вы узнаете:</p>
+      <ul class="free-consultation__list">
+        <li class="free-consultation__list-item">Что из себя представляет IT-сфера в Украине на самом деле?</li>
+        <li class="free-consultation__list-item">Почему IT-сфера растет даже в кризис, а IT компании обеспечивают идеальные условия работы для специалистов?</li>
+        <li class="free-consultation__list-item">Какие направления есть в IT рынке и что нужно для старта в каждом из них?</li>
+        <li class="free-consultation__list-item">За что специалисты с 3-х летним опытом в IT получают зарплаты по <span>$2000-3500</span>?</li>
+        <li class="free-consultation__list-item">Что нужно сделать, чтобы уже через 3-5 месяцев начать карьеру в IT и получить первую работу с ЗП от <span>$700</span> до <span>$1200</span>?</li>
+      </ul>
+    </div>
+    <div class="free-consultation-form-container">
+      <form class="free-consultation__form" method="post" action="#">
+        <h2 class="free-consultation__form-title">оставить заявку</h2>
+        <div class="free-consultation__form-input-container">
+          <div class="free-consultation-row">
+            <input class="free-consultation__form-input" type="text" name="name" required="" placeholder="Имя">
+          </div>
+          <div class="free-consultation-row">
+            <input class="free-consultation__form-input" type="tel" name="phone" required="" placeholder="Телефон">
+          </div>
+          <div class="free-consultation-row">
+            <input class="free-consultation__form-input" type="email" name="email" required="" placeholder="E-mail">
+          </div>
+        </div>
+        <div class="free-consultation__form-check-container">
+          <label class="free-consultation__label-checkbox">
+            <input class="free-consultation__checkbox" type="radio" name="radio" checked/>
+            <div class="free-consultation__checkbox-text">Встреча в Киеве</div>
+          </label>
+
+          <label class="free-consultation__label-checkbox">
+            <input class="free-consultation__checkbox" type="radio" name="radio"/>
+            <div class="free-consultation__checkbox-text">Online</div>
+          </label>
+        </div>
+        <div class="free-consultation__submit-wrap">
+            <button class="free-consultation__form-btn submit" type="submit">Отправить</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+</body>
+</html>
