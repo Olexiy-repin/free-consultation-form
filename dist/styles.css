@@ -301,6 +301,10 @@ select:-internal-autofill-selected {
 	display: block;
 }
 
+.free-consultation__checkbox:checked + .free-consultation__checkbox-text:before {
+	border: 2px solid #117d93;
+}
+
 .free-consultation__submit-wrap {
 	display: -webkit-box;
 	display: -ms-flexbox;
